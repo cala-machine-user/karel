@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "incremental": true,
+    "isolatedModules": false,
+    "lib": ["es2017"],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./dist/",
+    "preserveSymlinks": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es5",
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["./src/**/*.ts"]
+}
