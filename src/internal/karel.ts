@@ -35,7 +35,7 @@ export default class Karel {
     });
   }
 
-  // Rotate Karel clockwise
+  // Move Karel 1 space in the direction it's facing
   public move() {
     switch (this.direction) {
       case "north":
@@ -57,7 +57,7 @@ export default class Karel {
     }
   }
 
-  // Move Karel 1 space in the direction it's facing
+  // Rotate Karel clockwise
   public turn() {
     switch (this.direction) {
       case "north":
